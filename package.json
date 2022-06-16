@@ -17,6 +17,7 @@
   },
   "scripts": {
     "git": "git init && git add . && git commit -m 'commit'",
+    "push-git": "git remote add origin https://github.com/its-your-nuna/nfactorial-homework-06-15-components.git && git branch -M main && git push -u origin main",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
