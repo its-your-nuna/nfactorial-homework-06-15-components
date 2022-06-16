@@ -3,9 +3,21 @@
   --secondary-bg-color: #343434;
   --main-font-family: DIN, Helvetica, Arial, sans-serif;
 }
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.body{
+  background-color: #151515;
+  
+}
+.bodyLight{
+  background-color: white;
+}
 
 
 header {
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -58,11 +70,19 @@ hr {
   grid-row-gap: 1em;
   margin: 1rem;
 }
+.light{
+  border: solid 1px rgb(4, 47, 90);
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  background-color: rgb(150, 184, 213);
+}
 
 .select-item {
   padding: 1rem;
   background-color: var(--secondary-bg-color);
-  color: white;
+ 
   cursor: pointer;
 }
 
@@ -113,4 +133,21 @@ hr {
 .favorite-button:active{
   background-color: rgb(37, 33, 81);
   transform: translateY(4px);
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+}
+.quote{
+  color: rgb(138, 137, 223);
+  font-size: 36px;  
+}
+.quote p{ 
+  font-size: 24px;
+}
+.footerImg{
+  width: 15vw;
+  border-radius: 5px;
 }
